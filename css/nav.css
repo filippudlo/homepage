@@ -1,0 +1,17 @@
+.navigation {
+    padding: 0px 20px;
+    background-color: rgb(187, 186, 186);
+    margin: 20px 0px;
+    outline: 2px solid black;
+}
+.navigation__wayfinding {
+    text-decoration: none;
+    margin: 100px;
+    background-color: orange;
+    color: black;
+    outline: 2px solid currentColor;
+}
+.navigation__item {
+    list-style: none;
+    display: inline-block;
+}
