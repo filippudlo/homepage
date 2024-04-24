@@ -1,14 +1,22 @@
-console .log("Witam");
-let button = document.querySelector("button")
-let body = document.querySelector("body")
-
+{ 
+    
+const body = document.querySelector("body")
+    
+const init = () => {
+const button = document.querySelector("button")
 
 button.addEventListener("click", () => {
     body.classList.toggle("dark");
-  
 
-    if (button.innerText === "Zmień motyw na ciemny") {
-        button.innerText = "Zmień motyw na jasny";
-    } else {
-        button.innerText = "Zmień motyw na ciemny";}
-})
+    Change();
+})}
+
+init();
+
+const Change = () => {
+    
+button.innerText = body.classList.contains("dark") ? "Zmnień motyw na jasny":" Zmnień motyw na ciemny"
+}
+}
+ 
+ 
